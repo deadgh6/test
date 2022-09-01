@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Галерея для сайта на JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div onMouseOver="btn_show()" onMouseOut="btn_noshow()" class="wrapper">
+		<script src="skript.js"></script>
+		<!-- Стрелочка влево -->
+		<div id="left" onclick="image(0)" class="left_right"><img src="img/left.png"></div>
+		<!-- Стрелочка вправо -->
+		<div id="right" onclick="image(1)" class="left_right" style="margin-left: 564px; position: absolute; display: none;"><img src="img/right.png"></div>
+
+		<div class="cont">
+			<div class="mainimage2"><img src="main2.png" alt=""></div>
+			<div class="kart"><img src="kart1.png" alt=""></div>
+			<div class="kart2"><img src="kart2.png" alt=""></div>
+			<div class="kart3"><img src="kart3.png" alt=""></div>
+		</div>
+	</div>
+	<center><p style="font-size: 18px;color: rgb(100, 100, 100);font-weight: bold; margin: -30px;" id="num_img"></p></center>
+</body>
+</html>
